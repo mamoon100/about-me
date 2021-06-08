@@ -14,7 +14,10 @@ header {
 
 main {
     background-color: #0a81ab;
+    /* display: grid; */
+    /* place-items: center; */
     display: grid;
+    grid-template-rows: 0.1fr 0.40fr 1.5fr;
     place-items: center;
 }
 
@@ -24,17 +27,40 @@ footer {
 }
 
 main p:nth-child(1){
-    font-size: 70px;
+    font-size: 50px;
     color: #171332;
 }
 
 main p:nth-child(2) {
     background-color: white ;
     padding: 10px;
-    width: 70%;
+    width: 40ch;
     height: auto;
-    font-size: 40px;
+    font-size: 20px;
     border: solid #171332 8px;
     border-radius: 20px;
     text-indent: 5%;
+    
+}
+
+main ol li{
+    background-color: white;
+    border: solid black 3px;
+    font-size: 25px;
+    display: inline-block;
+    margin: 2px;
+    padding: 3px;
+    border-radius: 20px;
+    width: 20p;
+    
+}
+
+main ul li {
+    background-color: white;
+    border: solid black 5px;
+    margin: 5px;
+    padding: 3px;
+    border-radius: 20px;
+    font-size: 25px;
+    display: block;
 }
